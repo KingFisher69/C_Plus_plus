@@ -18,9 +18,9 @@ int main()
 {
     College mark1(70, 80 ,90);
 
-    /*cout<< "\nENTER THE MARK: \n" ;
+    cout<< "\nENTER THE MARK: \n" ;
 
-    mark1.data_in();*/
+    mark1.data_in();
     mark1.compute();
     mark1.data_output();
     cout<< "\nThe total marks is: "<<mark1.the_total();
@@ -73,7 +73,7 @@ College::College (int prog, int net, int WD)
 
 
 //Programming, networking, web_design, total, average
-/*data_in( ) – for data input.
-compute( ) – To perform calculations.
-data_out( ) – For data output.
-the_total( ) – To provide non-member functions access to the value stored in total.*/
+/*data_in( ) â€“ for data input.
+compute( ) â€“ To perform calculations.
+data_out( ) â€“ For data output.
+the_total( ) â€“ To provide non-member functions access to the value stored in total.*/
